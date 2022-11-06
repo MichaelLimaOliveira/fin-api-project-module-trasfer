@@ -12,5 +12,6 @@ router.use('/users', usersRouter);
 router.use('/profile', userProfileRouter);
 
 router.use('/statements', statementRouter);
+router.use("/", () => console.log("hello"))
 
 export { router };
